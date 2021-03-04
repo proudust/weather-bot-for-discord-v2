@@ -25,7 +25,7 @@ interface ExecuteWebhookJsonFormParams {
   tts?: boolean;
   file?: Blob | File;
   embeds?: Embed[];
-  allowed_mentions: AllowedMentions;
+  allowed_mentions?: AllowedMentions;
 }
 
 /**
